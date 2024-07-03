@@ -24,6 +24,20 @@ PACKAGES=(
 echo "Installing packages..."
 brew install ${PACKAGES[@]}
 
+if [ ! -f ~/.zshrc ]; then
+  touch ~/.zshrc
+fi
+
+# add starhip config
+if ! grep -q 'eval "$(starship init zsh)"' ~/.zshrc; then
+  echo 'eval "$(starship init zsh)"' >>~/.zshrc
+fi
+
+# add fzf config
+if ! grep -q 'source <(fzf --zsh)' ~/.zshrc; then
+  echo 'source <(fzf --zsh)' >>~/.zshrc
+fi
+
 echo "Installing apps..."
 CASKS=(
   warp
