@@ -3,6 +3,7 @@ Jackie's dotfiles
 1. Install stow (`brew install stow`)
 3. Clone this repo with git
 2. `cd` into this repo
+3. run command `stow .`
 
 ## Dependencies used
 - theme: [catpuccin](https://github.com/catppuccin/lazygit)
