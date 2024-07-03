@@ -1,5 +1,9 @@
 Jackie's dotfiles
 
+# Initial Setup
+1. Run `./setup.sh` and wait for the magic to happen
+
+# Symlink Setup
 1. Install stow (`brew install stow`)
 3. Clone this repo with git
 2. `cd` into this repo
