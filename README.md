@@ -6,6 +6,7 @@ Jackie's dotfiles
 3. run command `stow .`
 
 ## Dependencies used
+- fonts: [JetBrainsMono](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip)
 - theme: [catpuccin](https://github.com/catppuccin/lazygit)
 - terminal: [Warp](https://www.warp.dev/)
 - prompt: [Starship](https://starship.rs/)
