@@ -4,3 +4,7 @@ normal = { family = "jetbrainsmono nerd font", style = "Regular"}
 bold= { family = "jetbrainsmono nerd font", style = "Bold"}
 italic= { family = "jetbrainsmono nerd font", style = "Italic"}
 bold_italic= { family = "jetbrainsmono nerd font", style = "Bold Italic"}
+size = 16
+
+[window]
+padding = {x = 5, y = 5}

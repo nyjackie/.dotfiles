@@ -19,6 +19,8 @@ PACKAGES=(
   neovim
   starship
   stow
+  fd
+  pfetch-rs
 )
 
 echo "Installing packages..."
