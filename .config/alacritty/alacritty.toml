@@ -16,4 +16,4 @@ bold_italic= { family = "jetbrainsmono nerd font", style = "Bold Italic"}
 size = 16
 
 [window]
-padding = {x = 5, y = 5}
+padding = {x = 14, y = 14}
